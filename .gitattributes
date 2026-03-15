@@ -1,5 +1,3 @@
-* text=auto eol=lf
-
-*.c text
-*.h text
-*.py text
+*.c text eol=lf
+*.h text eol=lf
+*.py text eol=lf
