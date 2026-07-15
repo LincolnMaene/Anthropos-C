@@ -6,6 +6,9 @@ import sys
 import os
 
 def main():
+    '''
+    The main function of the anthropos-c compiler.
+    '''
     # first command line argument, i expect this to be the c file to compile
     first_cmd_line_arg = 1
     file_to_compile : str | os.PathLike[str] = sys.argv[first_cmd_line_arg]
